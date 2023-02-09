@@ -1,4 +1,4 @@
-Rules catalog includes **666 built-in detection rules** (_last update on 2023-02-08_).
+Rules catalog includes **667 built-in detection rules** (_last update on 2023-02-09_).
 ## Reconnaissance
 **Gather Victim Network Information**
 
@@ -4445,6 +4445,12 @@ Rules catalog includes **666 built-in detection rules** (_last update on 2023-02
 ??? abstract "Possible Malicious File Double Extension"
     
     Detects request to potential malicious file with double extension
+    
+    - **Effort:** elementary
+
+??? abstract "RTLO Character"
+    
+    Detects RTLO (Right-To-Left character) in file and process names.
     
     - **Effort:** elementary
 
